@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="steam mx-auto">
+        <div class="container text-center my-3">
+            <h1 style="color: #fff">STEAM PROFIT CALCULATOR</h1>
+        </div>
+        <br>
+
+        <div class="container input mx-auto text-center">
+            <p>Buy price:<input id="buy" type="number" min="0"></p>
+        </div>
+
+        <div class="container input mx-auto text-center">
+            <p>Sell price:<input id="sell" type="number" min="0"></p>
+        </div>
+
+        <div class="container text-center">
+            <h2>PROFIT : <span id="profit"></span> </h2>
+            <h2>PROFIT IN PERCENTAGE : %<span id="percent"></span> </h2>
+        </div>
+
+
+        <div class="container text-center btns">
+            <button id="calculate" class="btn btn-success" onclick="calculate()">Calculate</button>
+            <button id="clear" class="btn btn-danger" onclick="clearMe()">Clear</button>
+        </div>
+
+        <div class="row mx-3">
+            <div class="col">
+                <p style="color: gray">Created by ARMINMOW</p>
+            </div>
+
+            <div class="col text-right">
+                <p style="color: gray">arminmow@gmail.com</p>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+<script src="js/js.js"></script>
+</body>
+</html>
